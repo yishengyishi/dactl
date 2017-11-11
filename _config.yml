@@ -7,8 +7,8 @@ url                          : "" # the base hostname & protocol for your site
 blog:
   title                      : dactl
   description                  : >
-                               this should contain a proper description
-
+                               忆生怡世的个人主页
+                               
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
   search_path                : # "yourgitusername.github.io"
@@ -26,7 +26,7 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : 许伟烽
   rss                       : true # generate RSS feed and show it's icon in header
   mail                      : your@email.com # change to your e-mail address
   twitter                   : twitter-user-name
