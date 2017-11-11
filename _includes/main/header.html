@@ -4,6 +4,12 @@
 
         <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a>
         <object type="image/svg+xml" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">Your browser does not support svg images</object>
+        <img
+            class="me"
+            alt="{{ author.name }}"
+            src="{{ site.author.photo | relative_url }}"
+            srcset="{{ site.author.photo2x | relative_url }} 2x"
+        />
       </div>
 
         <ul>
